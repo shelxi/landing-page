@@ -1,0 +1,82 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+}
+
+.top-segment, .footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+
+}
+
+.header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-text, .a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.call {
+    background-color: #3882f6;
+    font-size: 0.8em;
+    margin: 50px 120px;
+    padding: 24px 48px;
+    border-radius: 5px;
+}
+
+.call-text {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.last-items {
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+
+.second-sign {
+    border-color: #ffffff;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    padding: 100px;
+
+}
+
+.test-text {
+    font: italic 100 36px 'helvetica', sans-serif; 
+    max-width: 960px;   
+
+}
+
+.reviewer {
+    margin-left: 750px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
