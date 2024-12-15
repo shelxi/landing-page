@@ -1,13 +1,22 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #ffffff;
     font-family: 'Roboto', Helvetica, sans-serif;
     padding:0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .top-segment, .footer {
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 5px 100px 72px;
 
 }
 
@@ -20,11 +29,13 @@ body {
 .sub-text, .a {
     color: #e5e7eb;
     font-size: 18px;
+    padding: 5px;
 }
 
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    padding: 5px;
 }
 
 button {
@@ -32,6 +43,104 @@ button {
     color: #ffffff;
     padding: 5px 20px;
     border-radius: 5px;
+}
+
+
+.sub-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 16px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+a:visited {
+    color: #e5e7eb;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.upper-body {
+    display: flex;
+    flex: auto;
+    gap: 30px;
+    margin-top: 50px;  
+    
+}
+
+
+.header {
+    word-wrap: break-word;
+}
+
+.group {
+    padding: 16px 120px 75px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.group .body-images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text {
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 8px;
+    text-wrap: wrap;
+
+}
+
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.test-text {
+    font: italic 100 36px 'helvetica', sans-serif; 
+    max-width: 960px;   
+
+}
+
+.reviewer {
+    margin-left: 750px;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
 .call {
@@ -58,25 +167,8 @@ button {
     border-color: #ffffff;
 }
 
-.testimonial {
-    background-color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    padding: 100px;
 
-}
-
-.test-text {
-    font: italic 100 36px 'helvetica', sans-serif; 
-    max-width: 960px;   
-
-}
-
-.reviewer {
-    margin-left: 750px;
-    font-size: 1.2em;
-    font-weight: 700;
+.footer {
+    text-align: center;
+    padding: 32px;
 }
