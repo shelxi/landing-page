@@ -9,6 +9,11 @@ This project is a simple landing page built entirely from scratch using HTML and
 
 ## Features
 
-- Clean ans simple design
+- Clean and simple design
 -Organized content sections for easy readability.
 - Responsive layout.
+
+## Credits
+
+-The Forex.jpg file used was sources from freepik.com
+-The forex charts used are hosted on tradingview.com
